@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "main", "main", "{E00C694F-B69F-4048-8915-B44091528C53}"
+	ProjectSection(SolutionItems) = preProject
+		Main.cpp = Main.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Headers", "Headers", "{22BD0861-EC10-4CF1-A2AE-D75BCCD4DDD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Language", "Language", "{20746E13-EA15-4225-87EF-A30FF4174F0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnglishText", "EnglishText", "{7F6AAF8F-9A91-4FAC-8708-ABA1E883DD1D}"
+	ProjectSection(SolutionItems) = preProject
+		ENGLISH.h = ENGLISH.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpanishText", "SpanishText", "{F8C13BC2-0CA5-4867-B4A7-A4F54361B45F}"
+	ProjectSection(SolutionItems) = preProject
+		SPANISH.h = SPANISH.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KoreanText", "KoreanText", "{45E00B70-99B9-4787-965E-F73D2BE1D963}"
+	ProjectSection(SolutionItems) = preProject
+		KOREAN.h = KOREAN.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChineseText", "ChineseText", "{32E77DEF-09BB-45E7-84BB-0932BE2F36F8}"
+	ProjectSection(SolutionItems) = preProject
+		CHINESE.h = CHINESE.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JapaneseText", "JapaneseText", "{9659C755-1DD8-402D-A919-312A7124815B}"
+	ProjectSection(SolutionItems) = preProject
+		JAPANESE.h = JAPANESE.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BritishText", "BritishText", "{95415802-C6CB-4D55-B870-9CE79CAB6263}"
+	ProjectSection(SolutionItems) = preProject
+		BRITISH.h = BRITISH.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrenchText", "FrenchText", "{A5EAA79B-5A7E-4B95-AD1F-0343C26BB22A}"
+	ProjectSection(SolutionItems) = preProject
+		FRENCH.h = FRENCH.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PortugueseText", "PortugueseText", "{47DEA9B6-DC9F-4508-BAE0-F9F783120F23}"
+	ProjectSection(SolutionItems) = preProject
+		PORTUGUESE.h = PORTUGUESE.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Firmware", "Firmware", "{68682752-67D0-43C1-8E8F-C196B15ABB52}"
+	ProjectSection(SolutionItems) = preProject
+		MK8_NewerFirmware_Supporter.hpp = MK8_NewerFirmware_Supporter.hpp
+		Update.h = Update.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background", "Background", "{449F9B9A-B061-421B-BECF-3A4662F05E5F}"
+	ProjectSection(SolutionItems) = preProject
+		color.h = color.h
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20746E13-EA15-4225-87EF-A30FF4174F0A} = {22BD0861-EC10-4CF1-A2AE-D75BCCD4DDD8}
+		{7F6AAF8F-9A91-4FAC-8708-ABA1E883DD1D} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{F8C13BC2-0CA5-4867-B4A7-A4F54361B45F} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{45E00B70-99B9-4787-965E-F73D2BE1D963} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{32E77DEF-09BB-45E7-84BB-0932BE2F36F8} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{9659C755-1DD8-402D-A919-312A7124815B} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{95415802-C6CB-4D55-B870-9CE79CAB6263} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{A5EAA79B-5A7E-4B95-AD1F-0343C26BB22A} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{47DEA9B6-DC9F-4508-BAE0-F9F783120F23} = {20746E13-EA15-4225-87EF-A30FF4174F0A}
+		{68682752-67D0-43C1-8E8F-C196B15ABB52} = {22BD0861-EC10-4CF1-A2AE-D75BCCD4DDD8}
+		{449F9B9A-B061-421B-BECF-3A4662F05E5F} = {22BD0861-EC10-4CF1-A2AE-D75BCCD4DDD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {499EF656-AC75-4D17-8D6B-15318A6DFBA3}
+	EndGlobalSection
+EndGlobal
